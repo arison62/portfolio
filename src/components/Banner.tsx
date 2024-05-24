@@ -1,5 +1,5 @@
 import backImg from '../assets/me_xl_back.png'
-import cv from '../assets/cv.pdf'
+import cv from '../assets/CV.pdf'
 
 
 export default function Banner() {

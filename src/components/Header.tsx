@@ -61,8 +61,8 @@ export default function Header() {
         </div>
         <nav className="mt-8 sm:flex justify-between gap-[25%] sm:mt-0">
             <a href="#about" className="hover:text-red-500 block mb-4 sm:mb-0">About</a>
-            <a href="#" className="hover:text-red-500 block mb-4 sm:mb-0">Portfolio</a>
-            <a href="#" className="hover:text-red-500 block mb-4 sm:mb-0">Contact</a>
+            <a href="#portfolio" className="hover:text-red-500 block mb-4 sm:mb-0">Portfolio</a>
+            <a href="#contact" className="hover:text-red-500 block mb-4 sm:mb-0">Contact</a>
         </nav>
         <ul className="mt-8 [&>*]:mb-4 sm:flex justify-between gap-[25%] sm:mt-0  sm:align-center">
          

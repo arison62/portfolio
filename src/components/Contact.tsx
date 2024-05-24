@@ -1,12 +1,12 @@
 import emailImg from '../assets/email.png'
 import extImg from '../assets/arrow.png'
 import winImg from '../assets/google-docs.png'
-import cv from '../assets/cv.pdf'
+import cv from '../assets/CV.pdf'
 
 export default function Contact(){
 
     return (
-        <div className="w-full px-2">
+        <div className="w-full px-2" id="contact">
             <div className="mx-auto max-w-lg p-4 text-center mt-16 border-2 border-red-500 rounded-xl">
                 <h2 className='font-bold text-red-500 mb-1 mx-auto'>Contact ME</h2>
                 <h3 className='text-2xl font-extrabold mx-auto border-b-2 border-b-red-500 w-fit'>Let's Talk !</h3>
