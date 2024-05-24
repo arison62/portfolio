@@ -29,7 +29,7 @@ const ParticlesComponent = () => {
     });
   }, []);
 
-  const particlesLoaded = async (container?: Container): Promise<void> => {
+  const particlesLoaded = async (): Promise<void> => {
   };
 
   const options: ISourceOptions = useMemo(
@@ -98,7 +98,7 @@ const ParticlesComponent = () => {
     [],
   );
 
-  if (true) {
+  if (init) {
     return (
       <Particles
         id="tsparticles"
